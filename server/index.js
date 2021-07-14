@@ -23,6 +23,7 @@ app.get('/*', (req, res, next) => {
         // get post info
         const postId = req.query.id;
         const post = getPostById(postId);
+        if(!post) return res.status(404).send("Post not found");
         
         // inject meta tags
         htmlData = htmlData.replace(
@@ -38,7 +39,7 @@ app.get('/*', (req, res, next) => {
     });
 });
 
-// start the server
+// listening...
 app.listen(PORT, (error) => {
     if (error) {
         return console.log('Error during app startup', error);
