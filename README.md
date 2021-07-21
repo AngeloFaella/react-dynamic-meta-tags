@@ -1,7 +1,7 @@
 # Adding dynamic meta tags to a React app without SSR 
 
-Support repository for *"Adding dynamic meta tags to a React app without SSR"* tutorial.
-A simple and effective solution to inject dynamic meta tags to a React app without SSR.
+Support repository for *["Adding dynamic meta tags to a React app without SSR"](https://blog.logrocket.com/adding-dynamic-meta-tags-react-app-without-ssr/)* tutorial.
+A simple and effective solution to inject dynamic meta tags in a React app without SSR.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
